@@ -7,9 +7,10 @@
     padding: 0px;
 }
 
-/* body {
+ body {
     overflow-x: hidden;
-} */
+}/*좌우 스크롤 고정*/ 
+
 
 .wrap {
     width: 100%;
