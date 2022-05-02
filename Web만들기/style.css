@@ -27,7 +27,7 @@
     width:100%;
 }
 
-.searchArea{
+.search_area{
     width: 280px;
     height:40px;
     background: rgb(0,0,0,0.5);
@@ -36,7 +36,7 @@
     margin-left: 50px;
 }
 
-.searchArea > form > input{
+.search_area > form > input{
     border:none;
     width: 230px;
     height: 40px;
@@ -45,7 +45,7 @@
     padding-left: 14px;
 }
 
-.searchArea > form > span{
+.search_area > form > span{
     width: 50px;
     color:#d0d0d0;
     font-size: 14px;
@@ -82,4 +82,16 @@
 .intro_text > h1{
     color: #fff;
     font-weight: lighter;
+}
+
+.sagwa_text {
+    font-size: 50px;
+}
+
+.images {
+    margin: 40px auto;
+}
+
+.images > a {
+    padding: 6px;
 }
