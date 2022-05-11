@@ -90,8 +90,5 @@
 
 .images {
     margin: 40px auto;
-}
-
-.images > a {
-    padding: 6px;
+    text-align : center;
 }
