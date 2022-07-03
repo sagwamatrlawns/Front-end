@@ -55,7 +55,7 @@ body {
   display: flex;
   justify-content: flex-end;
   line-height: 86px;
-
+  width: calc(1280px);
   color: #fff;
   font-size: 14px;
 }
