@@ -7,34 +7,10 @@
     <title>dialdy</title>
   </head>
   <body>
-    <header
-      style="
-        position: fixed;
-        background: black;
-        top: 0px;
-        width: 100%;
-        height: 40px;
-        color: pink;
-        text-align: center;
-        line-height: 40px;
-      "
-    >
-      멀ㅈ대ㅓ랴ㅐㅈㄷ머래ㅑ
-    </header>
-    <nav
-      style="
-        position: fixed;
-        background-color: pink;
-        color: black;
-        width: 100%;
-        top: 40px;
-        height: 20px;
-        padding-left: 20px;
-      "
-    >
-      <a href="#">dialdy</a>&nbsp; &nbsp;<a href="#">dialddy</a>
-    </nav>
-    <section style="position:fixed; background-color: lightgray; width: 100%; height: 100%; top: 60px;">
+   
+    <jsp:include page="header.html"/>
+
+    <section style="left:0px; position:fixed; background-color: lightgray; width: 100%; height: 100%; top: 60px;">
         <p style="padding-left: 20px">
             <h2 style="text-align: center;">dialdyddydyd</h2>
             feoijoiwjfoiewj<br>
@@ -45,6 +21,6 @@
         </p>
     </section>
 
-    <footer style="position: fixed; background-color: black; color: pink; width:100%; bottom:0px; height:30px; text-align: center; line-height: 30px"> eoijfwiejwoijfoewjofijoiwejoijeofwijoiejo</footer>
+    <jsp:include page="footer.html"/>
 </body>
 </html>
