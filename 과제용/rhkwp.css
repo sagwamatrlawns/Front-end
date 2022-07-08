@@ -1,0 +1,20 @@
+.title1 {
+  text-align: center;
+  color: pink;
+}
+
+.box {
+  position: fixed;
+  align-items: center;
+  padding: 50px;
+  width: 300px;
+  height: 150px;
+  background-color: yellow;
+  color: black;
+  box-shadow: 8px 8px 8px gray;
+  /* 1번으로 넣는 값이 x값이고 2번째가 y값 3번은 blur값이다. 마지막은 색상을 입력하면 된다. */
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auton;
+}
