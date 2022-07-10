@@ -30,3 +30,22 @@
   float: right;
   color: gray;
 }
+
+/* selector 문법 중에 공백이 있다면 ~안에있는 모든자식을 가리킨다.*/
+/* slector 문법 >을 사용하면 ~안에 있는 직계자식만 가리킨다. */
+.navbar li {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  background: lightblue;
+  color: blue;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.navbar li > a {
+  text-decoration: none;
+}
