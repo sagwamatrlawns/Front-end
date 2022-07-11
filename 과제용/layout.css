@@ -1,0 +1,40 @@
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(/Front-end/과제이미지/형우.png);
+  /* background-image: url(/Front-end/과제이미지/찬우.png), url(/Front-end/과제이미지/형우.png);
+  이런식으로 컴마를 사용해서 이미지 두개를 겹칠 수 있다. */
+  background-size: cover;
+  /* cover: 배경이 짤리더라도 빈공간 없이 배경으로 꽉채우는 것 */
+  /* contain: 배경이 짤리면 안된다. */
+  background-repeat: no-repeat;
+  /* no-repeat: 이미지가 반복되는 현상을 막아준다. */
+  background-position: center;
+  /* 배경위치 조정가능 */
+  background-attachment: fixed;
+  /* 스크롤시에 배경의 위치를 조정한다. */
+  filter: brightness(70%);
+  /* 박스에 보정입히기 
+  만약 박스안에 글씨가 있다면 글씨에도 보정이 적용된다.*/
+  padding: 1px;
+  /* 박스끼리 겹쳐져서 이미지의 마진값이 같이 적용되는 것을 막기위한 padding */
+}
+
+.main-title {
+  margin-top: 180px;
+  margin-left: 50px;
+  font-size: 48px;
+  color: white;
+}
+
+.sub-text {
+  color: white;
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
+.button {
+  color: white;
+  margin-left: 50px;
+  text-decoration: none;
+}
