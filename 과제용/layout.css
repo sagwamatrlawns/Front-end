@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .main-background {
   width: 100%;
   height: 500px;
@@ -22,7 +27,7 @@
 
 .main-title {
   margin-top: 180px;
-  margin-left: 50px;
+  text-align: center;
   font-size: 48px;
   color: white;
 }
@@ -30,11 +35,35 @@
 .sub-text {
   color: white;
   margin-top: -50px;
-  margin-left: 50px;
+  text-align: center;
 }
 
 .button {
-  color: white;
-  margin-left: 50px;
-  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 60px;
+  font-size: 16px;
+  text-align: center;
+  background: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+.sub-text2 {
+  text-align: center;
+}
+
+.sub-box {
+  margin: auto;
+  position: relative;
+  width: 500px;
+  margin-top: -30px;
+  padding: 20px;
+  background-color: lightgray;
 }
