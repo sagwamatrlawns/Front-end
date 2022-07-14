@@ -1,0 +1,71 @@
+body {
+  background-color: #373637;
+}
+
+.box {
+  width: 400px;
+  height: 500px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 40px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #adadac;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email {
+  width: 378px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.text-fild {
+  font-size: 40px;
+  width: auto;
+  height: auto;
+}
+
+.sub-box {
+  float: left;
+  margin-right: 20px;
+}
+
+.button {
+  border: 0;
+  outline: 0;
+
+  width: 120px;
+  height: 32px;
+  background-color: #f5c253;
+  border-radius: 5px;
+  color: white;
+}
+
+.Message {
+  width: 378px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.sub-box1 {
+  margin-top: 10px;
+}
+
+.Message-box {
+  margin-top: 120px;
+}
+
+.Title {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}

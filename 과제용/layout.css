@@ -60,7 +60,10 @@ a {
 }
 
 .sub-box {
+  /* 가운데 정렬 */
   margin: auto;
+
+  /* 박스에게 영역의 보이기 위치를 지정해서 배경보다 위쪽에 배치 */
   position: relative;
   width: 500px;
   margin-top: -30px;
