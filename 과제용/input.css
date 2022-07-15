@@ -4,7 +4,7 @@ body {
 
 .box {
   width: 400px;
-  height: 500px;
+  height: 480px;
   margin-top: 120px;
   margin-left: auto;
   margin-right: auto;
@@ -30,20 +30,13 @@ p {
 }
 
 .text-fild {
-  font-size: 40px;
-  width: auto;
+  width: 160px;
   height: auto;
-}
-
-.sub-box {
-  float: left;
-  margin-right: 20px;
 }
 
 .button {
   border: 0;
   outline: 0;
-
   width: 120px;
   height: 32px;
   background-color: #f5c253;
@@ -59,13 +52,16 @@ p {
 
 .sub-box1 {
   margin-top: 10px;
-}
-
-.Message-box {
-  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .Title {
   margin-top: 10px;
   margin-bottom: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
 }
