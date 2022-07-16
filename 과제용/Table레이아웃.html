@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/과제용/Table레이아웃.css" rel="stylesheet" />
+    <title>야미</title>
+  </head>
+  <body>
+    <div>
+      <!-- 테이블을 기본적으로 약간의 틈(마진)이 존재한다 
+    없애기 위해서는 css에 border-collapse: colapse를 입력하면 해결된다. -->
+      <table>
+        <!-- thead와 tbody는 의미는 없지만 분류를 위해 존재하는 테그 -->
+        <thead>
+          <!-- 셀 안의 요소 상하정렬은 css에
+        vertical-align: top/middle/bottom 
+        이렇게 작성하는데 top/middle/bottom중에 하나를 쓰면된다.(table에서는세로정렬에만 사용)-->
+          <td>
+            <p>dididididididi</p>
+            <p>dididididididi</p>
+          </td>
+          <td>2</td>
+          <td>3</td>
+        </thead>
+        <!-- tr은 표에서 가로줄(행)을 의미한다. -->
+        <tbody>
+          <!-- td는 세로줄(열)을 의미한다. -->
+          <!-- th는 td와 같지만 글자의 크기가 두꺼워 진다. -->
+          <th>1</th>
+          <td>2</td>
+          <td>3</td>
+        </tbody>
+      </table>
+      <div>
+        <!-- display: inline 항상 옆으로 채워지는 포과 너비가 업는 요소를 의미한다. -->
+        <span>diididididiii </span>
+        <span>diididididiii </span>
+        <span>diididididiii </span>
+      </div>
+    </div>
+  </body>
+</html>
