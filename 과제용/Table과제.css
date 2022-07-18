@@ -1,0 +1,16 @@
+td {
+  border: 1px solid #b7cbd5;
+}
+
+body {
+  background-color: #b7cbd5;
+}
+
+.title {
+  font-size: 32px;
+}
+
+table {
+  background-color: white;
+  text-align: right;
+}
