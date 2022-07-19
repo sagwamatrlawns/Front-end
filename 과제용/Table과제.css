@@ -8,9 +8,47 @@ body {
 
 .title {
   font-size: 32px;
+  color: #1d365e;
+}
+
+.image {
+  background-size: contain;
+  height: 100px;
+}
+
+.di {
+  transform: rotate(90deg);
+  background-size: contain;
+  width: 100px;
+}
+
+.dialdy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  background-size: contain;
+  width: 50px;
 }
 
 table {
   background-color: white;
+  text-align: right;
+  border-radius: 8px;
+}
+
+.body1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.amount-text {
+  color: #b7cbd5;
+}
+
+.item {
   text-align: right;
 }
