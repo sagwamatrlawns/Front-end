@@ -74,7 +74,7 @@ table {
 .bottom {
   margin-top: 20px;
   display: flex;
-  width: 654px;
+  width: 631px;
   justify-content: space-between;
 }
 
@@ -91,6 +91,15 @@ button {
   border-radius: 5px;
   border: 0;
   outline: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #193053;
+}
+
+button:active {
+  background-color: #162a4a;
 }
 
 .total {
