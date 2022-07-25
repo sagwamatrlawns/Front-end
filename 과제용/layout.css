@@ -4,9 +4,9 @@ a {
 }
 
 .main-background {
-  width: 100%;
+  width: 100vw;
   height: 500px;
-  background-image: url(/Front-end/과제이미지/형우.png);
+  background-image: url(/과제이미지/배경.jpg);
   /* background-image: url(/Front-end/과제이미지/찬우.png), url(/Front-end/과제이미지/형우.png);
   이런식으로 컴마를 사용해서 이미지 두개를 겹칠 수 있다. */
   background-size: cover;
@@ -69,4 +69,37 @@ a {
   margin-top: -30px;
   padding: 20px;
   background-color: lightgray;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  margin: 0%;
+}
+
+/* media query 문법 */
+/* 웹을 반응형으로 제작하기 위해서 사용하고 
+@media screen and로 시작한 다음 brakepoint를 지정한다
+여러게를 생성하더라고 상관없다. */
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 20px;
+  }
 }
