@@ -4,7 +4,7 @@ a {
 }
 
 .main-background {
-  width: 100vw;
+  width: 100%;
   height: 500px;
   background-image: url(/과제이미지/배경.jpg);
   /* background-image: url(/Front-end/과제이미지/찬우.png), url(/Front-end/과제이미지/형우.png);
@@ -88,6 +88,16 @@ body {
   margin: 0%;
 }
 
+.sub-menu {
+  margin-top: 100px;
+  display: flex;
+}
+
+.group {
+  text-align: center;
+  width: 100%;
+}
+
 /* media query 문법 */
 /* 웹을 반응형으로 제작하기 위해서 사용하고 
 @media screen and로 시작한 다음 brakepoint를 지정한다
@@ -96,10 +106,25 @@ body {
   .main-title {
     font-size: 30px;
   }
+  .sub-menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .group {
+    flex: 1 1 40%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .main-title {
-    font-size: 20px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .sub-menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .group {
+    flex: 1 1 100%;
   }
 }
