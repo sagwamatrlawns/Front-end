@@ -98,6 +98,17 @@ body {
   width: 100%;
 }
 
+.sub-menu i {
+  color: white;
+  background-color: antiquewhite;
+  width: 100px;
+  height: 100px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  border-radius: 999px;
+  margin-top: 32px;
+}
+
 /* media query 문법 */
 /* 웹을 반응형으로 제작하기 위해서 사용하고 
 @media screen and로 시작한 다음 brakepoint를 지정한다
