@@ -1,10 +1,38 @@
 body {
-  background-color: lightblue;
+  margin: 0;
+}
+
+.box1 {
+  margin-left: 84px;
+  margin-top: 84px;
+}
+
+.box1 h1 {
+  font-size: 48px;
+}
+
+.box1 p {
+  font-size: 22px;
+}
+
+.bg1 {
+  background: linear-gradient(#5d95d6, #5260ba);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.iphone {
+  width: 455px;
+  margin-right: 84px;
+  margin-top: 181px;
 }
 
 .Button {
   padding: 16px;
-  background-color: #1c1c1e;
+  font-size: 18px;
+  background-color: #444445;
   border-radius: 6px;
   color: white;
+  border: none;
 }
