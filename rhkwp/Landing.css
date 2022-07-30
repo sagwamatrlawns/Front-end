@@ -36,3 +36,29 @@ body {
   color: white;
   border: none;
 }
+
+.Page2 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.Page2 h3 {
+  margin-top: 100px;
+  margin-bottom: -24px;
+}
+
+.Page2 p {
+  margin-bottom: -4px;
+}
+
+.Page3 {
+  background-color: #4e61c0;
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 72px;
+}
+
+.Page3 h3 {
+  margin-top: -16px;
+}
