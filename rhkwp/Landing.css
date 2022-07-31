@@ -56,9 +56,64 @@ body {
   text-align: center;
   color: white;
   padding-top: 80px;
-  padding-bottom: 72px;
+  padding-bottom: 56px;
+  padding-left: 400px;
+  padding-right: 400px;
 }
 
-.Page3 h3 {
+.small-title {
+  text-align: center;
+}
+
+.small-title h3 {
   margin-top: -16px;
+  margin-bottom: 64px;
+}
+
+.small-title p {
+  margin-top: -12px;
+}
+
+.Page3 i {
+  color: #4e61c0;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  border-radius: 99px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Page4 {
+  margin-top: 100px;
+}
+
+.item {
+  position: relative;
+}
+
+.item-text {
+  top: 110px;
+  left: 110px;
+  position: absolute;
+  color: white;
+}
+
+.item-list {
+  flex-wrap: nowrap;
+  padding-left: 175px;
+  padding-right: 175px;
+}
+
+.filter {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: index 10;
+  height: 100%;
+  width: 100%;
 }
