@@ -37,6 +37,10 @@ body {
   border: none;
 }
 
+.Button:hover {
+  background-color: #212125;
+}
+
 .Page2 {
   text-align: center;
   margin-bottom: 100px;
@@ -95,7 +99,6 @@ body {
 
 .list {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   padding: 0px;
   gap: 52px;
@@ -110,6 +113,11 @@ body {
 .item {
   position: relative;
   width: 50%;
+}
+
+.item:hover {
+  border: #fff 32px solid;
+  box-sizing: border-box;
 }
 
 .item-text {
@@ -148,7 +156,7 @@ body {
   flex-direction: row;
   justify-content: center;
   padding: 0px;
-  gap: 52px;
+  gap: 32px;
   margin-bottom: 50px;
 }
 
@@ -158,10 +166,9 @@ body {
     flex-wrap: wrap;
   }
 
-  .item2 {
+  .list div {
     flex: 1 1 40%;
   }
-
   .item {
     flex: 1 1 100%;
   }
@@ -172,10 +179,12 @@ body {
     align-items: center;
     right: 0;
   }
+
   .box1 {
     margin-left: 0;
     text-align: center;
   }
+
   .iphone {
     margin-right: 0;
   }
