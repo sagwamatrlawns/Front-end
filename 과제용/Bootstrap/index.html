@@ -60,10 +60,21 @@
       </div>
     </div>
 
+    <!-- 모바일 에서는 1줄 테블릿 에서는 2줄 pc에서는 4줄로 바뀌는 반응형 만들기 -->
     <div class="container">
       <div class="row">
-        <img class="col-4 order-md-2" src="/과제이미지/plower.png" />
-        <div class="col-4 order-md-1">
+        <div class="col-md-6 col-lg-3">안녕</div>
+        <div class="col-md-6 col-lg-3">안녕</div>
+        <div class="col-md-6 col-lg-3">안녕</div>
+        <div class="col-md-6 col-lg-3">안녕</div>
+        <!-- lg는 PC사이즈 이상에서 col-3이 적용되게 한다는 뜻이다(900px)정도 된다 -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <img class="col-2 order-md-2" src="/과제이미지/plower.png" />
+        <div class="col-6 order-md-1 text-md-end">
           <p>
             Loren ipsum dolor sit amet, conserctetur adiopisicing elit. Possimus
             in nisi obvaecati. Natus ipsam
@@ -72,8 +83,8 @@
       </div>
 
       <div class="row">
-        <img class="col-4 order-1" src="/과제이미지/plower.png" />
-        <div class="col-4 order-2">
+        <img class="col-2 order-1" src="/과제이미지/plower.png" />
+        <div class="col-6 order-2">
           <p>
             Loren ipsum dolor sit amet, conserctetur adiopisicing elit. Possimus
             in nisi obvaecati. Natus ipsam
@@ -81,9 +92,10 @@
         </div>
       </div>
 
+      <!-- row를 클레스로 넣게되면 박스가 12개의 칸으로 쪼개지게 된다 col다음에 쓰이는 숫자에 따라서 얼마나 차지 할지를 정해줄 수 있다. -->
       <div class="row">
-        <img class="col-4 order-md-2" src="/과제이미지/plower.png" />
-        <div class="col-4 order-md-1">
+        <img class="col-2 order-md-2" src="/과제이미지/plower.png" />
+        <div class="col-6 order-md-1 text-md-end">
           <p>
             Loren ipsum dolor sit amet, conserctetur adiopisicing elit. Possimus
             in nisi obvaecati. Natus ipsam
