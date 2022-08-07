@@ -140,7 +140,7 @@ div .shop-bg {
 (재활용이가능한지, 확장해서 다른 class만들기 쉬운지)
 */
 
-/*참고로 bootstrap 사용시에 덮엄ㅁ쓰기는
+/* 참고로 bootstrap 사용시에 덮어쓰기는
 class를 추가하는게 흔한 방법이지 덮어쓰기는 잘 안한다.*/
 
 .container {
