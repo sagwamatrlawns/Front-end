@@ -24,7 +24,7 @@
   margin-bottom: 8px;
 }
 
-.banner-profile button {
+button {
   width: 100px;
   height: 32px;
   border: 0px;
@@ -71,4 +71,35 @@
 .bodydi {
   background-color: #f7f9fc;
   margin: 0;
+}
+
+.BOX {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 48px;
+  background-color: white;
+  box-shadow: 2px 2px 0px #e9eaed;
+  border-radius: 8px;
+}
+
+.qhsans {
+  width: 147px;
+}
+
+.icon {
+  width: 70px;
+  color: #81b8f2;
+}
+
+.Last {
+  text-align: center;
+}
+
+.Last h4 {
+  padding: 16px;
+}
+
+.Last button {
+  margin-bottom: 20px;
 }
