@@ -6,9 +6,6 @@
   /* display: flex; */
   justify-content: space-between;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 100px;
   padding: 48px;
   background-color: white;
   box-shadow: 2px 2px 0px #e9eaed;
@@ -47,8 +44,6 @@ button {
 
 .Profile {
   margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .Profile p {
@@ -70,13 +65,12 @@ button {
 
 .bodydi {
   background-color: #f7f9fc;
-  margin: 0;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .BOX {
   margin-top: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
   padding: 48px;
   background-color: white;
   box-shadow: 2px 2px 0px #e9eaed;
