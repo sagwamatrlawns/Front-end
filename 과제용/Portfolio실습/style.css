@@ -65,8 +65,8 @@ button {
 
 .bodydi {
   background-color: #f7f9fc;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .BOX {
@@ -75,6 +75,15 @@ button {
   background-color: white;
   box-shadow: 2px 2px 0px #e9eaed;
   border-radius: 8px;
+  margin-top: 20px;
+}
+
+.container {
+  gap: 20px;
+}
+
+.sort {
+  text-align: center;
 }
 
 .qhsans {
