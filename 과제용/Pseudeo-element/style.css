@@ -1,0 +1,34 @@
+/* 첫 글자만 크게 넣고 싶을때 */
+.pseudo::first-letter {
+  color: red;
+  font-size: 30px;
+}
+
+/* 그나마 자주 사용하는 것들 */
+.pseudo1::after {
+  /* 내부에서 맨 뒤에 뭔가를 추가 하고 싶을떄 사용. */
+  content: "Hi";
+  color: blue;
+  font-size: 30px;
+}
+
+.pseudo2::before {
+  /* 내부에서 맨 앞에 뭔가를 추가 하고 싶을떄 사용 */
+  content: "Hi";
+  color: blue;
+  font-size: 30px;
+}
+
+/* 일부 요소 스타일링시 pseudo-element 사용가능 */
+/* 숨겨져있는 요소를 스타일 적용할때도 사용 */
+.input-file::file-selector-button {
+  background-color: skyblue;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.input-file::file-selector-button:hover {
+  background-color: blue;
+  color: white;
+}

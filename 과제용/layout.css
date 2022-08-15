@@ -200,7 +200,7 @@ class를 추가하는게 흔한 방법이지 덮어쓰기는 잘 안한다.*/
 /* media query 문법 */
 /* 웹을 반응형으로 제작하기 위해서 사용하고 
 @media screen and로 시작한 다음 brakepoint를 지정한다
-여러게를 생성하더라고 상관없다. */
+여러게를 생성하더라도 상관없다. */
 @media screen and (max-width: 1200px) {
   .main-title {
     font-size: 30px;
