@@ -32,3 +32,42 @@
   background-color: blue;
   color: white;
 }
+
+/* 또다른 스타일링 방법 */
+/* 버튼만 스타일링이 된다. */
+/* -webkit- : 크롬에서만 적용되는 스타일 이다.(다른 브라우저에서는 안보임) */
+/* -ms- : Explorer에서만 적용(사용할 일이 있을까?) */
+/* -moz- : Firefox에서만 적용 */
+/* input[type="file"]::-webkit-file-upload-button {
+  background: skyblue;
+  border: none;
+} */
+
+input::-webkit-input-placeholder {
+  color: red;
+}
+
+input[type="range"] {
+  appearance: none;
+  background: lightblue;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  background: blue;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+progress {
+  -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+  background-color: lightyellow;
+}
+
+::-webkit-progress-value {
+  background-color: orange;
+}
