@@ -64,10 +64,12 @@ progress {
   -webkit-appearance: none;
 }
 
+/* progress요소의 전체 bar를 나타낸다. */
 ::-webkit-progress-bar {
   background-color: lightyellow;
 }
 
+/* value를 나타낸다. */
 ::-webkit-progress-value {
   background-color: orange;
 }
