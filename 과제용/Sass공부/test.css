@@ -1,0 +1,16 @@
+/* :root {
+  --main-color: red;
+  /* css도 기본 문법에 변수가 있다! */
+} 
+*/
+
+/* .background {
+  background-color: var(--main-color);
+  하지만 이런식으로 var을 붙여서 사용해야 하기 때문에 sass보다는 별로다..
+  font-size: 14px;
+} */
+
+.background {
+  background-color: var(--main-color);
+  font-size: 14px;
+} /*# sourceMappingURL=test.css.map */
