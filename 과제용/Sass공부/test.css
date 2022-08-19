@@ -12,4 +12,54 @@
   background-color: var(--main-color);
   하지만 이런식으로 var을 붙여서 사용해야 하기 때문에 sass보다는 별로다..
   font-size: 14px;
-} *//*# sourceMappingURL=test.css.map */
+} */
+.main-bg h4 {
+  font-size: 16px;
+}
+
+.main-bg button {
+  color: red;
+}
+
+.main-bg h4 {
+  font-size: 16px;
+}
+.main-bg button {
+  color: red;
+}
+
+.box-red, .box-blue, .box-green, .btn-green {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn2, .btn-green {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-green {
+  color: green;
+}
+
+.btn-green {
+  color: blue;
+}
+
+.btn-green {
+  color: red;
+}
+
+.box-green {
+  background: green;
+}
+
+.box-blue {
+  background: blue;
+}
+
+.box-red {
+  background: red;
+}/*# sourceMappingURL=test.css.map */

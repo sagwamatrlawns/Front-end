@@ -35,3 +35,78 @@ $기본사이즈: 16px;
 //   width: calc(40%-20%);
 //  이런식으로 calc를 써서 css도 사칙연산이 가능하다.
 // }
+
+// nesting 문법
+.main-bg h4 {
+  font-size: 16px;
+}
+
+.main-bg button {
+  color: red;
+}
+// 원래는 위쪽 처럼  요소 안쪽에 있는 요소들을 스타일 했지만
+
+.main-bg {
+  h4 {
+    font-size: 16px;
+  }
+  button {
+    color: red;
+  }
+}
+// nesting문법을 사용하면 이런식으로 작성 할 수 있다.
+// 관련된 class들을 묶을 떄 효과적이다.
+
+// @exstend 문법
+%btn {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn2 {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+// %로 생성한 class는 임시클래스 라고 하면 단독으로 컴파일된지 않는다는 특징이 있다.
+// 그래서 css파일에는 btn이 안보임
+
+.btn-green {
+  @extend %btn;
+  // 임시 class를 사용하기 위해선 @extend라는 걸 붙여줘야 한다.
+  color: green;
+}
+
+.btn-green {
+  @extend .btn2;
+  // 이런식으로 그냥 class로도 가능하다.
+  color: blue;
+}
+
+.btn-green {
+  @extend %btn;
+  color: red;
+}
+
+// 과제
+%box {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.box-green {
+  @extend %btn;
+  background: green;
+}
+
+.box-blue {
+  @extend %btn;
+  background: blue;
+}
+
+.box-red {
+  @extend %btn;
+  background: red;
+}
