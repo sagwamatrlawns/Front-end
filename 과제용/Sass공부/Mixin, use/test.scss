@@ -1,0 +1,16 @@
+@mixin 작명($구명) {
+  font-size: $구멍;
+  letter-spacing: -1px;
+}
+
+h2 {
+  @include 작명();
+}
+
+h3 {
+  @include 작명();
+}
+
+h4 {
+  @include 작명();
+}
