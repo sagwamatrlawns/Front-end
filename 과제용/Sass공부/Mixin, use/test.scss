@@ -1,16 +1,18 @@
-@mixin 작명($구명) {
+// @mixin 문법의 $파라미터는 긴 코드를 가변적으로 만들 때 사용한다.
+
+@mixin 폰트스타일($구멍, $구멍2) {
   font-size: $구멍;
-  letter-spacing: -1px;
+  letter-spacing: $구멍2;
 }
 
 h2 {
-  @include 작명();
+  @include 폰트스타일(40px);
 }
 
 h3 {
-  @include 작명();
+  @include 폰트스타일(30px);
 }
 
 h4 {
-  @include 작명();
+  @include 폰트스타일();
 }
