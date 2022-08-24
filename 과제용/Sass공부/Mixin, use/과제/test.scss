@@ -21,3 +21,33 @@ li:hover {
 //   color: white;
 //   border: 1px solid blue;
 // }
+
+button {
+  border: none;
+  background-color: skyblue;
+  padding: 16px;
+  border-radius: 8px;
+  color: white;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+@mixin alert($색) {
+  padding: 16px;
+  border: 1px solid $색;
+  background-color: $색;
+}
+
+.dial {
+  @include alert(#e2efda);
+}
+
+.dial1 {
+  @include alert(#ddecf6);
+}
+
+.dial2 {
+  @include alert(#fbf8e5);
+}

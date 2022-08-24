@@ -14,4 +14,34 @@ li:hover {
   background-color: blue;
   color: white;
   border: 1px solid blue;
+}
+
+button {
+  border: none;
+  background-color: skyblue;
+  padding: 16px;
+  border-radius: 8px;
+  color: white;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+.dial {
+  padding: 16px;
+  border: 1px solid #e2efda;
+  background-color: #e2efda;
+}
+
+.dial1 {
+  padding: 16px;
+  border: 1px solid #ddecf6;
+  background-color: #ddecf6;
+}
+
+.dial2 {
+  padding: 16px;
+  border: 1px solid #fbf8e5;
+  background-color: #fbf8e5;
 }/*# sourceMappingURL=test.css.map */
