@@ -1,0 +1,58 @@
+.sh-list li {
+  list-style: none;
+  padding: 15px;
+  border: 1px solid #eee;
+}
+.sh-list .active {
+  background: skyblue;
+  color: white;
+}
+
+.alert-box-green {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background-color: green;
+  color: white;
+}
+
+.alert-box-blue {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background-color: blue;
+  color: white;
+}
+
+.alert-box-yellow {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background-color: orange;
+  color: white;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.row .col-12 {
+  float: left;
+  width: 100%;
+  padding: 15px;
+  background-color: lightgray;
+}
+
+.row .col-6 {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  background-color: lightgray;
+}
+
+.row .col-4 {
+  float: left;
+  width: 33.333%;
+  padding: 15px;
+  background-color: lightgray;
+}/*# sourceMappingURL=test.css.map */

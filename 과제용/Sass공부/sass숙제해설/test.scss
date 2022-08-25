@@ -1,0 +1,55 @@
+.sh-list {
+  li {
+    list-style: none;
+    padding: 15px;
+    border: 1px solid #eee;
+  }
+  .active {
+    background: skyblue;
+    color: white;
+  }
+}
+
+@mixin alert-box($bg) {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background-color: $bg;
+  color: white;
+}
+
+.alert-box-green {
+  @include alert-box(green);
+}
+
+.alert-box-blue {
+  @include alert-box(blue);
+}
+
+.alert-box-yellow {
+  @include alert-box(orange);
+}
+
+div {
+  box-sizing: border-box;
+}
+
+// bootstrap 만들기
+
+@mixin row($wd) {
+  float: left;
+  width: $wd;
+  padding: 15px;
+  background-color: lightgray;
+}
+.row .col-12 {
+  @include row(100%);
+}
+
+.row .col-6 {
+  @include row(50%);
+}
+
+.row .col-4 {
+  @include row(33.333%);
+}
