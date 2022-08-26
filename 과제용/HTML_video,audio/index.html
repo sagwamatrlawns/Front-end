@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video,audio</title>
+  </head>
+  <body>
+    <!-- controls는 동영상을 재생하기 위한 플레이 버튼 같은것을 나타내 주는 것이고 -->
+    <!-- autoplay muted는 크롬에서 동영상을 자동으로 재생해 주는 것이다 -->
+    <!-- 그 외의 속성들
+    preload = "none" 동영상을 미리다운받지 않는다.
+    preload = "auto" 동영상을 미리다운 받는다.
+    preload = "metadata" 상황봐서 알잘딱 다운로드
+    poster="이미지 경로" 영상 썸네일 적용 -->
+    <video controls autoplay muted poster="/과제이미지/형우.png">
+      <source src="/과제이미지/bridge.mp4" type="video/mp4" />
+      <source src="/과제이미지/bridge-m.webm" type="video/mp4" />
+      <!-- source형식으로 비디오를 불러오게 된다면 호환성을 좋게 할 수 있다 위에있는 확장자가 지원되지 않는다면 아래쪽에 있는걸 재생해 준다. -->
+    </video>
+    <audio src="/과제이미지/bass.mp3" controls></audio>
+  </body>
+</html>
