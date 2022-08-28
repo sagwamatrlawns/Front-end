@@ -62,6 +62,46 @@ body {
   transform: scaleX(3);
 }
 
+.ani-navbar {
+  width: 200px;
+  background-color: black;
+  color: white;
+  height: 100%;
+  padding: 25px;
+  position: fixed;
+  text-align: right;
+  z-index: 5;
+  transition: all 1s;
+  transform: translateX(-150px);
+}
+
+.ani-navbar p {
+  text-align: center;
+}
+
+.ani-navbar:hover {
+  text-align: center;
+  transform: translateX(0px);
+}
+
+.ani-navbar:hover p {
+  animation-name: slide;
+  animation-duration: 1s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-250px);
+  }
+  50% {
+    transform: translateX(20px);
+    transform: skewX(-30deg);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 @keyframes item1 {
   0% {
     transform: rotate(0deg);
@@ -86,6 +126,7 @@ body {
   }
   100% {
     transform: rotate(45deg);
+    transform: scale(1.5);
   }
 }
 
