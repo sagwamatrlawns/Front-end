@@ -1,0 +1,11 @@
+// _(언더바)를 쓰고 파일명을 작성하면 scss코드를 css로 변환하지 않는다.
+
+body {
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+$메인칼라: brown;

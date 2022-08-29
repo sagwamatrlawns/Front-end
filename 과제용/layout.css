@@ -1,0 +1,229 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(/과제이미지/배경.jpg);
+  /* background-image: url(/Front-end/과제이미지/찬우.png), url(/Front-end/과제이미지/형우.png);
+  이런식으로 컴마를 사용해서 이미지 두개를 겹칠 수 있다. */
+  background-size: cover;
+  /* cover: 배경이 짤리더라도 빈공간 없이 배경으로 꽉채우는 것 */
+  /* contain: 배경이 짤리면 안된다. */
+  background-repeat: no-repeat;
+  /* no-repeat: 이미지가 반복되는 현상을 막아준다. */
+  background-position: center;
+  /* 배경위치 조정가능 */
+  background-attachment: fixed;
+  /* 스크롤시에 배경의 위치를 조정한다. */
+  filter: brightness(70%);
+  /* 박스에 보정입히기 
+  만약 박스안에 글씨가 있다면 글씨에도 보정이 적용된다.*/
+  padding: 1px;
+  /* 박스끼리 겹쳐져서 이미지의 마진값이 같이 적용되는 것을 막기위한 padding */
+}
+
+.main-title {
+  margin-top: 180px;
+  text-align: center;
+  font-size: 48px;
+  color: white;
+}
+
+.sub-text {
+  color: white;
+  margin-top: -50px;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 60px;
+  font-size: 16px;
+  text-align: center;
+  background: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+.sub-text2 {
+  text-align: center;
+}
+
+.sub-box {
+  /* 가운데 정렬 */
+  margin: auto;
+
+  /* 박스에게 영역의 보이기 위치를 지정해서 배경보다 위쪽에 배치 */
+  position: relative;
+  width: 500px;
+  margin-top: -30px;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  margin: 0%;
+}
+
+.sub-menu {
+  margin-top: 100px;
+  display: flex;
+}
+
+.group {
+  text-align: center;
+  width: 100%;
+}
+
+.sub-menu i {
+  color: white;
+  background-color: antiquewhite;
+  width: 100px;
+  height: 100px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  border-radius: 999px;
+  margin-top: 32px;
+}
+
+/* 애니메이션 부분 */
+.shop-bg {
+  background-color: lightgray;
+}
+
+/*덮어쓰기방법*/
+/*만약동일한 클레스 명이 있다면 더 아래쪽에 있는 스타일이 적용되어 보이게 된다.*/
+/* 다른 덮어쓰기 방법으로는 우선순위를 높이는 것이다 
+class = 10
+id = 100
+style= 1000
+의 점수를 가지고 있고 점수가 높은게 적용된다. 
+하지만 이건 다음에 수정할때 어렵기 때문에 별로다*/
+
+/*
+specificity방법
+만약 class를 2개 쓴다면 총 20점이 된다.*/
+
+/* 앞에 div를 붙이는 식으로 테크를 다는건 1점 */
+div .shop-bg {
+  background-color: skyblue !important;
+  /* 만약 뒤에 !important를 붙이게 되면 이건 10000점이다*/
+}
+
+/*
+좋은코드의 기준
+1. 나중에 수정/관리가 쉬우면 항상 좋은 코드이다
+2. 확장성이 좋으면 좋은 코드다
+(재활용이가능한지, 확장해서 다른 class만들기 쉬운지)
+*/
+
+/* 참고로 bootstrap 사용시에 덮어쓰기는
+class를 추가하는게 흔한 방법이지 덮어쓰기는 잘 안한다.*/
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.shop-item {
+  width: 33%;
+  padding: 10px;
+}
+
+.shop-item img {
+  width: 100%;
+  display: block;
+  /* 보통이미지에는 보이지 않는 선같은 것들이 존재해서 간혹 넚이가 
+  이상하게 느껴진 다면 display: block;을 사용하여 해결한다. */
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: all 400ms;
+  transform: translateY(100%);
+}
+.sagwa {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.sagwa:hover .overlay {
+  opacity: 1;
+  transform: translateY(50%);
+}
+
+.overlay-title {
+  font-size: 64px;
+  margin-left: 20px;
+  color: white;
+}
+
+.overlay-p {
+  margin-top: -64px;
+  margin-left: 20px;
+  font-size: 32px;
+  color: white;
+}
+
+.sort {
+  margin-top: -58px;
+}
+
+/* media query 문법 */
+/* 웹을 반응형으로 제작하기 위해서 사용하고 
+@media screen and로 시작한 다음 brakepoint를 지정한다
+여러게를 생성하더라도 상관없다. */
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 30px;
+  }
+  .sub-menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .group {
+    flex: 1 1 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .sub-menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .group {
+    flex: 1 1 100%;
+  }
+}

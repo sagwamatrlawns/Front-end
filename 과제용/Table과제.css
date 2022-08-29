@@ -1,0 +1,128 @@
+td {
+  padding: 14px;
+}
+
+body {
+  background-color: #b7cbd5;
+}
+
+.line {
+  border-top: 2px solid #b7cbd5;
+  border-bottom: 2px solid #b7cbd5;
+  border-collapse: collapse;
+}
+
+.image {
+  background-size: contain;
+  height: 50px;
+}
+
+.di {
+  transform: rotate(90deg);
+  background-size: contain;
+  width: 50px;
+}
+
+.dialdy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-bottom: -16px;
+  background-size: contain;
+  width: 60px;
+}
+
+table {
+  background-color: white;
+  border-radius: 8px;
+  width: auto;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  border-bottom: 1px solid #b7cbd5;
+  border-collapse: collapse;
+}
+
+.body1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-top: 100px;
+  width: 654px;
+  display: flex;
+  font-size: 32px;
+  color: #1d365e;
+}
+
+.amount-text {
+  color: #b7cbd5;
+}
+
+.item {
+  color: #b7cbd5;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.bottom {
+  margin-top: 20px;
+  display: flex;
+  width: 631px;
+  justify-content: space-between;
+}
+
+a {
+  color: #1d365e;
+}
+
+button {
+  padding: 20px;
+  width: 240px;
+  background-color: #1d365e;
+  color: #b7cbd5;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #193053;
+}
+
+button:active {
+  background-color: #162a4a;
+}
+
+.total {
+  color: #1d365e;
+  font-weight: bold;
+  text-align: right;
+}
+
+.total-title {
+  color: #1d365e;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+}
+
+.price {
+  color: #b7cbd5;
+  text-align: right;
+}
+
+.table-title {
+  color: #b7cbd5;
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+}

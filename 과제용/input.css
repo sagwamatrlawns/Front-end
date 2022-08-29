@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "폰트요";
+  src: url(../font/Gilbeot_Rainbow.otf);
+  /* 폰트를 작명하고 내 컴퓨터에서 폰트가 있는 위치를 지정한다.*/
+  /* 참고로 폰트는 용량이 크기 때문에 웹용 폰트인 woff확장자를 사용하면 요량을 줄일 수 있다. */
+}
+
+body {
+  background-color: #373637;
+  font-family: "폰트요";
+  font-weight: 900;
+  /* font-family: "Courier New", "Courier", "monospace"; */
+  /* 폰트넣는 방법 : font-family: '폰트이름';
+  font-family는 inherit(상속) 된다 그래서 가장위에 작성하게 된다면 그 아래로 폰트가 적용된다.
+  만약 그 폰트가 설치되어 있지 않거나 지원되지 않는다면 폰트를 뒤쪽에 ,로 나눠서 작성하면 그 바로 뒤에 있는 폰트가 적용된다.*/
+}
+
+p,
+h4,
+h3,
+h2,
+h1,
+span {
+  transform: rotate(0.03deg);
+  /* 만약 폰트에 계단현상이 발생한다면 이런식으로 폰트를 아주 약간 회전시켜서 
+  안티앨리어싱과 같은 효과를 적용할 수 있다. */
+}
+
+.box {
+  width: 400px;
+  height: 480px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 40px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #adadac;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email {
+  width: 378px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.text-fild {
+  width: 160px;
+  height: auto;
+}
+
+.button {
+  border: 0;
+  outline: 0;
+  width: 120px;
+  height: 32px;
+  background-color: #f5c253;
+  border-radius: 5px;
+  color: white;
+}
+
+.Message {
+  width: 378px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.sub-box1 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Title {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}

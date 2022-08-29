@@ -1,0 +1,30 @@
+.f-small {
+  font-size: 12px;
+}
+
+.f-mid {
+  font-size: 16px;
+}
+
+.f-lg {
+  font-size: 20px;
+}
+
+/* BEM */
+/* css명을 작성할때 컴포넌트의 이름을 적고 _를 쓴두에 역할을 적어주면 편하다.
+그 다음은 -를 써서 세부특징을 적어준다. */
+.main-btn {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}

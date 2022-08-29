@@ -1,0 +1,162 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.ani-text {
+  text-align: center;
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.ani-text:hover {
+  animation-name: 왔다갔다;
+  animation-duration: 1s;
+  color: black;
+  /* 몇초동안 애니메이션을 동작시킬지 결정 */
+}
+
+.dial {
+  color: white;
+  background-color: skyblue;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.dial:hover {
+  background-color: aquamarine;
+  animation-name: 흔들흔들;
+  animation-duration: 1s;
+}
+
+.icon {
+  width: 56px;
+}
+
+.icon:hover {
+  animation-fill-mode: forwards;
+  animation-name: 쇽;
+  animation-duration: 1s;
+}
+
+.menu {
+  width: 100px;
+  height: 500px;
+  color: white;
+  background-color: black;
+  transition: all 0.5s linear;
+}
+
+.item {
+  color: white;
+}
+
+.item:hover {
+  animation-name: itme1;
+  animation-duration: 1s;
+}
+
+.menu:hover {
+  transform: scaleX(3);
+}
+
+.ani-navbar {
+  width: 200px;
+  background-color: black;
+  color: white;
+  height: 100%;
+  padding: 25px;
+  position: fixed;
+  text-align: right;
+  z-index: 5;
+  transition: all 1s;
+  transform: translateX(-150px);
+}
+
+.ani-navbar p {
+  text-align: center;
+}
+
+.ani-navbar:hover {
+  text-align: center;
+  transform: translateX(0px);
+}
+
+.ani-navbar:hover p {
+  animation-name: slide;
+  animation-duration: 1s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-250px);
+  }
+  50% {
+    transform: translateX(20px);
+    transform: skewX(-30deg);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes item1 {
+  0% {
+    transform: rotate(0deg);
+    color: white;
+  }
+  50% {
+    transform: rotate(10deg);
+    color: white;
+  }
+  100% {
+    transform: rotate(0deg);
+    color: white;
+  }
+}
+
+@keyframes 쇽 {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(45deg);
+    transform: scale(1.5);
+  }
+}
+
+@keyframes 흔들흔들 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(24deg);
+  }
+  75% {
+    transform: rotate(-24deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes 왔다갔다 {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  75% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+  /* 이런식으로 애니메이션의 진행도에 따라서 스타일을 적용할 수 있다. 더 세부적으로도 쪼갤수 있다. */
+}

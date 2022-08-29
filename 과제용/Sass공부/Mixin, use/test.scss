@@ -1,0 +1,24 @@
+// reset임폴트하여서 코드 불러오기
+@use "reset";
+
+// @mixin 문법의 $파라미터는 긴 코드를 가변적으로 만들 때 사용한다.
+@mixin 폰트스타일($구멍) {
+  font-size: $구멍;
+  letter-spacing: -1px;
+}
+
+h2 {
+  @include 폰트스타일(40px);
+  color: reset.$메인칼라;
+  // 불러온 코드는 앞에 파일명을 기입해 주어야 학동한다.
+}
+
+h3 {
+  @include 폰트스타일(30px);
+}
+
+h4 {
+  font-size: 10px;
+  letter-spacing: -1px;
+  @include 폰트스타일();
+}

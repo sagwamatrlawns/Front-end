@@ -1,0 +1,108 @@
+.point {
+  color: #81b8f2;
+}
+
+.banner {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+  background-color: white;
+  box-shadow: 2px 2px 0px #e9eaed;
+  border-radius: 8px;
+}
+
+.banner-profile h1 {
+  margin-bottom: -8px;
+}
+
+.banner-profile p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+button {
+  width: 100px;
+  height: 32px;
+  border: 0px;
+  border-radius: 4px;
+  background-color: #81b8f2;
+  color: white;
+}
+
+.box1 {
+  display: flex;
+  gap: 20px;
+}
+
+.box2 {
+  display: flex;
+  gap: 48px;
+  padding-left: 48px;
+  border-left: medium solid #e9e9e9;
+}
+
+.Profile {
+  margin-top: 50px;
+}
+
+.Profile p {
+  padding-left: 10px;
+}
+
+.line {
+  margin-top: -10px;
+  height: 4px;
+  background-color: #e9e9e9;
+}
+
+.line2 {
+  margin-top: -4px;
+  height: 4px;
+  width: 65px;
+  background-color: #81b8f2;
+}
+
+.bodydi {
+  background-color: #f7f9fc;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.BOX {
+  margin-top: 20px;
+  padding: 48px;
+  background-color: white;
+  box-shadow: 2px 2px 0px #e9eaed;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.container {
+  gap: 20px;
+}
+
+.sort {
+  text-align: center;
+}
+
+.qhsans {
+  width: 147px;
+}
+
+.icon {
+  width: 70px;
+  color: #81b8f2;
+}
+
+.Last {
+  text-align: center;
+}
+
+.Last h4 {
+  padding: 16px;
+}
+
+.Last button {
+  margin-bottom: 20px;
+}
