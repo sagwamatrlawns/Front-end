@@ -1,0 +1,15 @@
+.grid-container2 img {
+  width: 100px;
+  width: 100px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-auto-rows: 100px 100px 100px;
+}
+
+.grid-nav {
+  grid-column: 1/2ㄴ;
+  grid-row: 1/2;
+}
