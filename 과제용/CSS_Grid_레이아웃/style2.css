@@ -1,0 +1,15 @@
+.containner div {
+  border: 1px solid black;
+}
+
+.containner {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-auto-rows: 100px 100px 100px;
+}
+
+.nav {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
