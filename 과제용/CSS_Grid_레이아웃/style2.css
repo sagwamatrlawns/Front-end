@@ -1,15 +1,34 @@
-.containner div {
+.grid-container div {
   border: 1px solid black;
 }
 
-.containner {
+.grid-container {
   display: grid;
-  /* grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2; */
-  grid-template-areas: "header header header" " a main b " " . . . " " footer footer footer ";
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-areas:
+    "헤더 헤더 헤더 헤더"
+    "사이드 내용 내용 내용"
+    "사이드 내용 내용 내용";
 }
 
-.nav {
+.grid-nav {
+  grid-area: 헤더;
+}
+
+.grid-sidebar {
+  grid-area: 사이드;
+}
+
+.grid-content {
+  grid-area: 내용;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-areas:
+      "헤더 헤더 헤더 헤더"
+      "사이드 사이드 사이드 사이드"
+      "내용 내용 내용 내용";
+  }
 }
