@@ -1,0 +1,19 @@
+.grey {
+  background-color: white;
+  height: 2000px;
+  margin-top: 500px;
+}
+
+.image {
+  float: right;
+  width: 400px;
+  /* sticky는 화면에 image가 나타나서 상단 100px 아래 고정된다 (조건부 fixed) */
+  /* 부모 div 박스를 넘어 가면 해제된다. */
+  position: sticky;
+  top: 100px;
+}
+
+.text {
+  float: left;
+  width: 300px;
+}
