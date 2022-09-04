@@ -1,0 +1,33 @@
+body {
+  background-color: #eee;
+  margin: 0px;
+}
+
+.Title {
+  padding-left: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.container_Item {
+  background-color: white;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 16px;
+}
+
+.SearchBar {
+  height: 30px;
+  width: 200px;
+}
+
+.header {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding: 16px;
+  background-color: white;
+}
