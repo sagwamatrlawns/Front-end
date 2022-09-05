@@ -3,16 +3,16 @@ body {
   margin: 0px;
 }
 
-.Title {
-  padding-left: 20px;
+.main {
+  padding-left: 24px;
 }
 
-.container {
+.container1 {
   display: flex;
-  gap: 40px;
+  gap: 24px;
 }
 
-.container_Item {
+.container1_Item {
   background-color: white;
   padding-left: 24px;
   padding-right: 24px;
