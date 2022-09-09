@@ -7,21 +7,29 @@ body {
   padding-left: 24px;
 }
 
-.container1 {
+.container {
   display: flex;
-  gap: 24px;
+  gap: 16px;
+  justify-content: space-between;
 }
 
 .container1_Item {
   background-color: white;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 24px;
   border-radius: 16px;
+  border-left: 5px solid black;
+}
+
+.container1_Item p {
+  font-size: 14px;
+  color: gray;
 }
 
 .SearchBar {
-  height: 30px;
+  height: 40px;
   width: 200px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
 }
 
 .header {
@@ -30,4 +38,13 @@ body {
   padding-right: 40px;
   padding: 16px;
   background-color: white;
+}
+
+.header button {
+  height: 40px;
+  width: 50px;
+  background-color: black;
+  color: white;
+  margin-left: -10px;
+  border-radius: 5px;
 }
