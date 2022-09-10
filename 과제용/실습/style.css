@@ -7,21 +7,31 @@ body {
   padding-left: 24px;
 }
 
-.container {
+.container-1 {
+  width: 100%;
   display: flex;
   gap: 16px;
   justify-content: space-between;
 }
 
 .container1_Item {
+  display: flex;
+  justify-content: space-between;
   background-color: white;
   padding: 24px;
   border-radius: 16px;
   border-left: 5px solid black;
+  align-items: center;
 }
 
 .container1_Item p {
   font-size: 14px;
+  color: gray;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container1_Item i {
   color: gray;
 }
 
@@ -33,6 +43,9 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding-left: 40px;
   padding-right: 40px;
@@ -47,4 +60,11 @@ body {
   color: white;
   margin-left: -10px;
   border-radius: 5px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: gray;
 }
