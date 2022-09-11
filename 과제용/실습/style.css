@@ -4,13 +4,13 @@ body {
 }
 
 .main {
-  padding-left: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .container-1 {
   width: 100%;
   display: flex;
-  gap: 16px;
   justify-content: space-between;
 }
 
@@ -67,4 +67,16 @@ body {
   align-items: center;
   gap: 24px;
   color: gray;
+}
+
+.Chart_Tasks {
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chartt {
+  padding: 16px;
 }
