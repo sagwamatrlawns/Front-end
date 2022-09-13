@@ -81,6 +81,10 @@ body {
   padding: 16px;
 }
 
-.rksrur {
-  padding-left: 24px;
+.dashboard {
+  gap: 1.5rem;
+}
+
+.dashboard > div {
+  flex: 1;
 }
