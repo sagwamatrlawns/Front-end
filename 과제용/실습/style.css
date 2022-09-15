@@ -74,7 +74,15 @@ body {
   margin-left: 24px;
   margin-right: 24px;
   display: flex;
-  justify-content: space-between;
+  gap: 1rem;
+}
+
+.Chart {
+  flex: 4;
+}
+
+.Tasks {
+  flex: 2;
 }
 
 .chartt {
