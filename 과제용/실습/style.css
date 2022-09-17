@@ -78,6 +78,28 @@ body {
 .chartt {
   padding: 16px;
 }
+.ani-navbar:hover {
+  transform: translateX(0px);
+  text-align: left;
+}
+
+.ani-navbar {
+  width: 200px;
+  background-color: blue;
+  color: white;
+  height: 100%;
+  padding: 25px;
+  position: fixed;
+  z-index: 5;
+  text-align: right;
+  transition: all 1s;
+  transform: translateX(-140px);
+}
+
+.sub-Item {
+  height: 60px;
+  line-height: 60px;
+}
 
 .dashboard {
   gap: 1.5rem;
