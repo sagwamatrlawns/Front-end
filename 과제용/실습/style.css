@@ -133,3 +133,7 @@ body {
 .dashboard > div {
   flex: 1;
 }
+
+.mar {
+  margin-left: 60px;
+}

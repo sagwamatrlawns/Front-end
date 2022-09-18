@@ -33,103 +33,112 @@
       </nav>
     </div>
 
-    <header class="header">
-      <div>
-        <input class="SearchBar" type="text" placeholder="Search" />
-        <button><i class="fa-solid fa-magnifying-glass"></i></button>
-      </div>
-      <div class="header_right">
-        <i class="fa-solid fa-bell"></i>
-        <i class="fa-solid fa-envelope"></i>
-        <a>Minny Park</a>
-      </div>
-    </header>
+    <div class="mar">
+      <header class="header">
+        <div>
+          <input class="SearchBar" type="text" placeholder="Search" />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="header_right">
+          <i class="fa-solid fa-bell"></i>
+          <i class="fa-solid fa-envelope"></i>
+          <a>Minny Park</a>
+        </div>
+      </header>
 
-    <div class="main">
-      <h1 class="Title">Dashboard</h1>
-      <div class="container-1 dashboard">
-        <div class="container1_Item sky">
-          <div>
-            <p>Earnings (Monthly)</p>
-            <h3>$400,000</h3>
+      <div class="main">
+        <h1 class="Title">Dashboard</h1>
+        <div class="container-1 dashboard">
+          <div class="container1_Item sky">
+            <div>
+              <p>Earnings (Monthly)</p>
+              <h3>$400,000</h3>
+            </div>
+            <i class="fa-solid fa-calendar-days fa-2x"></i>
           </div>
-          <i class="fa-solid fa-calendar-days fa-2x"></i>
-        </div>
-        <div class="container1_Item green">
-          <div>
-            <p>Earnings (Annual)</p>
-            <h3>$800,000</h3>
+          <div class="container1_Item green">
+            <div>
+              <p>Earnings (Annual)</p>
+              <h3>$800,000</h3>
+            </div>
+            <i class="fa-solid fa-dollar-sign fa-2x"></i>
           </div>
-          <i class="fa-solid fa-dollar-sign fa-2x"></i>
-        </div>
-        <div class="container1_Item blue">
-          <div>
-            <p>Tasks</p>
-            <h3>13</h3>
+          <div class="container1_Item blue">
+            <div>
+              <p>Tasks</p>
+              <h3>13</h3>
+            </div>
+            <i class="fa-solid fa-list fa-2x"></i>
           </div>
-          <i class="fa-solid fa-list fa-2x"></i>
-        </div>
-        <div class="container1_Item yellow">
-          <div>
-            <p>Requests</p>
-            <h3>26</h3>
+          <div class="container1_Item yellow">
+            <div>
+              <p>Requests</p>
+              <h3>26</h3>
+            </div>
+            <i class="fa-solid fa-comments fa-2x"></i>
           </div>
-          <i class="fa-solid fa-comments fa-2x"></i>
         </div>
       </div>
-    </div>
-    <div class="Chart_Tasks">
-      <div class="card Chart">
-        <div class="card-header">Earnings Overview</div>
-        <canvas class="chartt" id="myChart">
-          <script>
-            const ctx = document.getElementById("myChart").getContext("2d");
-            const myChart = new Chart(ctx, {
-              type: "bar",
-              data: {
-                labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
-                datasets: [
-                  {
-                    label: "# of Votes",
-                    data: [12, 19, 3, 5, 2, 3],
-                    backgroundColor: [
-                      "rgba(255, 99, 132, 0.2)",
-                      "rgba(54, 162, 235, 0.2)",
-                      "rgba(255, 206, 86, 0.2)",
-                      "rgba(75, 192, 192, 0.2)",
-                      "rgba(153, 102, 255, 0.2)",
-                      "rgba(255, 159, 64, 0.2)",
-                    ],
-                    borderColor: [
-                      "rgba(255, 99, 132, 1)",
-                      "rgba(54, 162, 235, 1)",
-                      "rgba(255, 206, 86, 1)",
-                      "rgba(75, 192, 192, 1)",
-                      "rgba(153, 102, 255, 1)",
-                      "rgba(255, 159, 64, 1)",
-                    ],
-                    borderWidth: 1,
-                  },
-                ],
-              },
-              options: {
-                scales: {
-                  y: {
-                    beginAtZero: true,
+      <div class="Chart_Tasks">
+        <div class="card Chart">
+          <div class="card-header">Earnings Overview</div>
+          <canvas class="chartt" id="myChart">
+            <script>
+              const ctx = document.getElementById("myChart").getContext("2d");
+              const myChart = new Chart(ctx, {
+                type: "bar",
+                data: {
+                  labels: [
+                    "Red",
+                    "Blue",
+                    "Yellow",
+                    "Green",
+                    "Purple",
+                    "Orange",
+                  ],
+                  datasets: [
+                    {
+                      label: "# of Votes",
+                      data: [12, 19, 3, 5, 2, 3],
+                      backgroundColor: [
+                        "rgba(255, 99, 132, 0.2)",
+                        "rgba(54, 162, 235, 0.2)",
+                        "rgba(255, 206, 86, 0.2)",
+                        "rgba(75, 192, 192, 0.2)",
+                        "rgba(153, 102, 255, 0.2)",
+                        "rgba(255, 159, 64, 0.2)",
+                      ],
+                      borderColor: [
+                        "rgba(255, 99, 132, 1)",
+                        "rgba(54, 162, 235, 1)",
+                        "rgba(255, 206, 86, 1)",
+                        "rgba(75, 192, 192, 1)",
+                        "rgba(153, 102, 255, 1)",
+                        "rgba(255, 159, 64, 1)",
+                      ],
+                      borderWidth: 1,
+                    },
+                  ],
+                },
+                options: {
+                  scales: {
+                    y: {
+                      beginAtZero: true,
+                    },
                   },
                 },
-              },
-            });
-          </script>
-        </canvas>
-      </div>
-      <div class="card Tasks">
-        <div class="card-header">Tasks</div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Borrowed Items</li>
-          <li class="list-group-item">Trello Requests</li>
-          <li class="list-group-item">Marked Comments</li>
-        </ul>
+              });
+            </script>
+          </canvas>
+        </div>
+        <div class="card Tasks">
+          <div class="card-header">Tasks</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Borrowed Items</li>
+            <li class="list-group-item">Trello Requests</li>
+            <li class="list-group-item">Marked Comments</li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
