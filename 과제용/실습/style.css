@@ -32,6 +32,11 @@ body {
   border-radius: 5px;
 }
 
+.SearchBar:hover {
+  width: 300px;
+  transition: all 1s;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
