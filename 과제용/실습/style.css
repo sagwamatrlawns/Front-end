@@ -78,27 +78,56 @@ body {
 .chartt {
   padding: 16px;
 }
-.ani-navbar:hover {
+/* .ani-navbar:hover {
   transform: translateX(0px);
-  text-align: left;
-}
+  transition: all 0.5s;
+} */
 
-.ani-navbar {
+/* .ani-navbar {
   width: 200px;
   background-color: blue;
   color: white;
-  height: 100%;
+  height: 100vh;
   padding: 25px;
   position: fixed;
   z-index: 5;
-  text-align: right;
-  transition: all 1s;
+  transition: all 0.5s;
   transform: translateX(-140px);
-}
+} */
 
-.sub-Item {
+/* .sub-Item {
   height: 60px;
   line-height: 60px;
+} */
+
+.sidebar {
+  width: 150px;
+  height: 100vh;
+  background-color: #484bb3;
+  position: fixed;
+  z-index: 5;
+  color: white;
+
+  transition: all 0.5s;
+  transform: translateX(-100px);
+}
+
+.sidebar:hover {
+  transition: all 0.5s;
+  transform: translateX(0px);
+}
+
+.sidebar div {
+  margin: 12px 0px 0px 15px;
+}
+
+.sidebar i {
+  transition: all 0.5s;
+  transform: translateX(100px);
+}
+
+.sidebar:hover i {
+  transform: translateX(0px);
 }
 
 .dashboard {
@@ -135,5 +164,5 @@ body {
 }
 
 .mar {
-  margin-left: 60px;
+  margin-left: 40px;
 }
