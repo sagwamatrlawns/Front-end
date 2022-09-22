@@ -7,15 +7,28 @@
   width: 100%;
   height: 100%;
   position: relative;
+  transition: all 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-inner:hover {
+  transform: rotateY(180deg);
 }
 
 .front {
   width: 100%;
   position: absolute;
+  backface-visibility: hidden;
 }
 
 .back {
   width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding-top: 50%;
+  box-sizing: border-box;
+  background: white;
   text-align: center;
   position: absolute;
+  transform: rotateY(180deg);
 }
