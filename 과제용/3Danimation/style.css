@@ -19,6 +19,7 @@
   width: 100%;
   position: absolute;
   backface-visibility: hidden;
+  z-index: 1;
 }
 
 .back {
@@ -27,8 +28,8 @@
   border-radius: 50%;
   padding-top: 50%;
   box-sizing: border-box;
-  background: white;
   text-align: center;
+  background: pink;
   position: absolute;
   transform: rotateY(180deg);
 }
